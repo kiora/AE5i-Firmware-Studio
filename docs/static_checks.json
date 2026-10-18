@@ -1,0 +1,70 @@
+{
+  "powershell_parse": true,
+  "launcher_x64_gui": true,
+  "pe_dependencies": [
+    {
+      "name": "AE5iFirmwareStudio.exe",
+      "machine": "0x8664",
+      "imports": [
+        "USER32.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "tar2sqfs.exe",
+      "machine": "0x8664",
+      "imports": [
+        "libsquashfs.dll",
+        "liblzma-5.dll",
+        "liblzo2-2.dll",
+        "libzstd.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll"
+      ]
+    },
+    {
+      "name": "liblzo2-2.dll",
+      "machine": "0x8664",
+      "imports": [
+        "KERNEL32.dll",
+        "msvcrt.dll"
+      ]
+    },
+    {
+      "name": "liblzma-5.dll",
+      "machine": "0x8664",
+      "imports": [
+        "KERNEL32.dll",
+        "msvcrt.dll"
+      ]
+    },
+    {
+      "name": "libzstd.dll",
+      "machine": "0x8664",
+      "imports": [
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "name": "libsquashfs.dll",
+      "machine": "0x8664",
+      "imports": [
+        "liblzma-5.dll",
+        "libzstd.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll"
+      ]
+    }
+  ],
+  "windows_execution": false
+}

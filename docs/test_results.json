@@ -1,0 +1,117 @@
+{
+  "version": "1.4.11",
+  "count": 27,
+  "tests": [
+    {
+      "name": "full source verification and deep decompression",
+      "passed": true
+    },
+    {
+      "name": "version synchronized",
+      "passed": true
+    },
+    {
+      "name": "19 partitions / 74 script MD5 blocks / 5 image headers",
+      "passed": true
+    },
+    {
+      "name": "unmodified BIN roundtrip is byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ZIP output readback and inner CRC",
+      "passed": true
+    },
+    {
+      "name": "bad source S-record checksum auto repaired without staged import",
+      "passed": true
+    },
+    {
+      "name": "oversize import rejected",
+      "passed": true
+    },
+    {
+      "name": "custom uboot modification rejected",
+      "passed": true
+    },
+    {
+      "name": "source overwrite rejected",
+      "passed": true
+    },
+    {
+      "name": "damaged SquashFS signature cannot bypass format validation",
+      "passed": true
+    },
+    {
+      "name": "corrupt-data fixture still has readable metadata",
+      "passed": true
+    },
+    {
+      "name": "corrupt file data rejected by deep import validation",
+      "passed": true
+    },
+    {
+      "name": "xattr values before ID table participate in comparison",
+      "passed": true
+    },
+    {
+      "name": "incomplete project partition list rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate project partition names rejected",
+      "passed": true
+    },
+    {
+      "name": "complete 19-partition project import",
+      "passed": true
+    },
+    {
+      "name": "unchanged workspace preserves raw bytes / rootfs.",
+      "passed": true
+    },
+    {
+      "name": "unchanged workspace preserves raw bytes / spsdk.",
+      "passed": true
+    },
+    {
+      "name": "unchanged workspace preserves raw bytes / spapp.",
+      "passed": true
+    },
+    {
+      "name": "actual edited directory rebuild preserves permissions",
+      "passed": true
+    },
+    {
+      "name": "edited regular-file content verified inside image",
+      "passed": true
+    },
+    {
+      "name": "edited SquashFS reintegrated with all firmware checks",
+      "passed": true
+    },
+    {
+      "name": "extraction failure handled",
+      "passed": true
+    },
+    {
+      "name": "failed extraction removes all partial files and sidecar",
+      "passed": true
+    },
+    {
+      "name": "inconsistent hardlink copies rejected instead of losing edit",
+      "passed": true
+    },
+    {
+      "name": "devices FIFO symlinks and symlink-hardlinks restored",
+      "passed": true
+    },
+    {
+      "name": "linked workspace root rejected before resolve",
+      "passed": true
+    }
+  ],
+  "firmware_sha256": "ec916016c9dd7c1eeed826cfa3f69c3ac84ad1af49f418db0e14191b6944ab74",
+  "builder": "squashfs-tools-ng 1.1.0 Linux native build",
+  "windows_gui_run": false
+}
